@@ -1,0 +1,26 @@
+{
+  "name": "graphql_server",
+  "version": "1.0.0",
+  "description": "A GraphQL server personal project",
+  "main": "src/index.ts",
+  "repository": "git@github.com:diegoribeiromartins/graphql_server.git",
+  "author": "Diego R. Martins <diegoribeiromartins@gmail.com>",
+  "license": "GNU",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon -e ts,js,json,graphql 'src/index.ts' --exec 'ts-node' src/index.ts"
+  },
+  "dependencies": {
+    "apollo-server-express": "^3.12.1",
+    "axios": "^1.5.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "graphql": "^16.8.0",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "typescript": "^5.2.2"
+  }
+}
